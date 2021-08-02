@@ -1,4 +1,4 @@
-Author Jordan Garrity 
+Original Author: Jordan Garrity 
 
 ### Project Details
 This Project covers a framework for conversion between VCS outputs 
@@ -17,6 +17,9 @@ It also outlines parsers for conversion from the DSL model back to any of the
 original VCS variants. This provides the ability to convert from one VCS output
 such as Git to SVN. This allows for existing tools for mining and analysing a specific 
 repository type to now be used on any repository type.
+
+### Releases and Binary Downloads
+From the CLOSER website: http://closer.eeecs.qub.ac.uk/ 
 
 ### VCS variants supported
 git, svn, cvs
