@@ -1,6 +1,6 @@
 Author Jordan Garrity 
 
-###Project Details
+### Project Details
 This Project covers a framework for conversion between VCS outputs 
 to assist with repository mining across version control system 
 (VCS) variants.
@@ -18,11 +18,12 @@ original VCS variants. This provides the ability to convert from one VCS output
 such as Git to SVN. This allows for existing tools for mining and analysing a specific 
 repository type to now be used on any repository type.
 
-###VCS variants supported
+### VCS variants supported
 git, svn, cvs
 
-###Project structure explained
- 
+### Project structure explained
+This project is an IntelliJ project.
+
 src/main/java contains all the source code for this project.
 
 src/main/java/models contains the class files that build up the DSL
