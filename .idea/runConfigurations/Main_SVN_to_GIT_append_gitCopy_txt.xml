@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main SVN to GIT append gitCopy.txt" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <module name="SourceCode.main" />
+    <option name="PROGRAM_PARAMETERS" value="-i C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\svn.txt -t SVN -u GIT -o C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\gitCopy.txt -a" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

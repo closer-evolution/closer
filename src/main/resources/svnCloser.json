@@ -1,0 +1,162 @@
+[
+  {
+    "id": "r6",
+    "author": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "authorDate": "2020-12-20T01:16:05Z",
+    "committer": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "committerDate": "2020-12-20T01:16:05Z",
+    "message": "This\nis \na \ntest \nof \na \nmulti \nline \ncommit",
+    "fileChanges": [
+      {
+        "type": "ADDED",
+        "file": "TestCommitMessage.txt"
+      }
+    ]
+  },
+  {
+    "id": "r5",
+    "author": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "authorDate": "2020-11-19T15:44:19Z",
+    "committer": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "committerDate": "2020-11-19T15:44:19Z",
+    "message": "",
+    "fileChanges": [
+      {
+        "type": "DELETED",
+        "file": "TextFile4.txt"
+      },
+      {
+        "type": "DELETED",
+        "file": "TextFile5.txt"
+      },
+      {
+        "type": "ADDED",
+        "file": "folder"
+      },
+      {
+        "type": "ADDED",
+        "file": "folder/TextFile4.txt"
+      },
+      {
+        "type": "ADDED",
+        "file": "folder/TextFile5.txt"
+      }
+    ]
+  },
+  {
+    "id": "r4",
+    "author": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "authorDate": "2020-11-10T21:20:54Z",
+    "committer": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "committerDate": "2020-11-10T21:20:54Z",
+    "message": "Update file content",
+    "fileChanges": [
+      {
+        "type": "MODIFIED",
+        "file": "TextFile1.txt"
+      },
+      {
+        "type": "MODIFIED",
+        "file": "TextFile2.txt"
+      }
+    ]
+  },
+  {
+    "id": "r3",
+    "author": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "authorDate": "2020-11-10T21:19:48Z",
+    "committer": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "committerDate": "2020-11-10T21:19:48Z",
+    "message": "Add additional file",
+    "fileChanges": [
+      {
+        "type": "ADDED",
+        "file": "TextFile5.txt"
+      }
+    ]
+  },
+  {
+    "id": "r2",
+    "author": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "authorDate": "2020-11-10T21:12:02Z",
+    "committer": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "committerDate": "2020-11-10T21:12:02Z",
+    "message": "",
+    "fileChanges": [
+      {
+        "type": "ADDED",
+        "file": "TextFile1.txt"
+      },
+      {
+        "type": "ADDED",
+        "file": "TextFile2.txt"
+      },
+      {
+        "type": "ADDED",
+        "file": "TextFile3.txt"
+      },
+      {
+        "type": "ADDED",
+        "file": "TextFile4.txt"
+      }
+    ]
+  },
+  {
+    "id": "r1",
+    "author": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "authorDate": "2020-11-10T18:42:10Z",
+    "committer": {
+      "identifier": "Jordan",
+      "emailAddress": "Jordan"
+    },
+    "committerDate": "2020-11-10T18:42:10Z",
+    "message": "Imported folder structure",
+    "fileChanges": [
+      {
+        "type": "ADDED",
+        "file": "branches"
+      },
+      {
+        "type": "ADDED",
+        "file": "tags"
+      },
+      {
+        "type": "ADDED",
+        "file": "trunk"
+      }
+    ]
+  }
+]

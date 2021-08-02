@@ -1,0 +1,329 @@
+commit a2432d5cb7aec201aed9c1b105b4562c6f453021
+Merge: 650a075 634254b
+Author:     40179744 <jgarrity01@qub.ac.uk>
+AuthorDate: Fri Jan 15 21:40:54 2021 +0000
+Commit:     40179744 <jgarrity01@qub.ac.uk>
+CommitDate: Fri Jan 15 21:40:54 2021 +0000
+
+    Merge branch 'Convert-DSL-to-Git' into 'master'
+    
+    DSL back to source version styles
+    
+    Conversion of the CLOSER json format back to the three respective types
+    -git
+    -hg
+    -svn
+    
+    This also includes conversions directly between VCS offerings such that svn logs can be directly converted to git logs for example.
+    
+    This serves as a proof of concept that the CLOSER json format is lossless and can map between VCS offerings
+    
+    See merge request !5
+
+commit 634254b3f6f9d1818e45ad2ef4645223008032c6
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Fri Jan 15 21:35:12 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Fri Jan 15 21:35:12 2021 +0000
+
+    Update to used zoned date to support timezones
+
+M	src/main/java/main/Main.java
+M	src/main/java/models/dsl/Revision.java
+M	src/main/java/parsers/CloserParser.java
+M	src/main/java/parsers/GitParser.java
+M	src/main/java/parsers/HgParser.java
+M	src/main/java/parsers/Parser.java
+M	src/main/java/parsers/SvnParser.java
+
+commit 422a308ce65da7b9562e01c9b9cfdad4fb1dd8d9
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Fri Jan 15 20:51:44 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Fri Jan 15 20:51:44 2021 +0000
+
+    Convert from CLOSER to HG
+
+A	.idea/runConfigurations/Main_DSL_to_HG.xml
+A	.idea/runConfigurations/Main_GIT_to_HG.xml
+M	.idea/runConfigurations/Main_GIT_to_SVN.xml
+A	.idea/runConfigurations/Main_HG_to_GIT.xml
+A	.idea/runConfigurations/Main_HG_to_SVN.xml
+A	.idea/runConfigurations/Main_SVN_to_GIT.xml
+A	.idea/runConfigurations/Main_SVN_to_HG.xml
+M	src/main/java/models/dsl/Author.java
+M	src/main/java/parsers/HgParser.java
+M	src/main/java/parsers/SvnParser.java
+
+commit 1fb14c657d2ca5305e3d9400a4066e3ec7aa00a7
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Thu Jan 14 22:36:31 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Thu Jan 14 22:36:31 2021 +0000
+
+    SVN and Git from CLOSER parsing
+    
+    Adding parsers to validate that conversion to the closer json format is lossless
+
+A	.idea/runConfigurations/Main_DSL_to_SVN.xml
+A	.idea/runConfigurations/Main_GIT_to_SVN.xml
+M	build.gradle
+M	src/main/java/main/Main.java
+M	src/main/java/models/dsl/Author.java
+M	src/main/java/models/dsl/FileChange.java
+M	src/main/java/models/dsl/Revision.java
+M	src/main/java/parsers/CloserParser.java
+M	src/main/java/parsers/GitParser.java
+M	src/main/java/parsers/HgParser.java
+M	src/main/java/parsers/Parser.java
+M	src/main/java/parsers/ParserSelector.java
+M	src/main/java/parsers/SvnParser.java
+M	src/main/resources/git.txt
+
+commit 13bfd759d0211093781c3d0ffc2fbf385cf9b888
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Wed Jan 13 00:59:11 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Wed Jan 13 00:59:11 2021 +0000
+
+    Add additional CLI options and start of DSL parser
+
+A	.idea/runConfigurations/Main_DSL_to_GIT.xml
+M	.idea/runConfigurations/Main_GIT_to_DSL.xml
+A	.idea/runConfigurations/Main_help.xml
+A	.idea/runConfigurations/Main_version.xml
+M	build.gradle
+M	src/main/java/main/Main.java
+M	src/main/java/models/dsl/Revision.java
+A	src/main/java/parsers/CloserParser.java
+M	src/main/java/parsers/GitParser.java
+M	src/main/java/parsers/ParserSelector.java
+D	src/main/resources/gitCloser.json
+D	src/main/resources/hgCloser.json
+D	src/main/resources/svnCloser.json
+
+commit 650a0752c2bdcfebe6dfa729f9070747819f9c58
+Author:     40179744 <jgarrity01@qub.ac.uk>
+AuthorDate: Mon Jan 11 17:33:11 2021 +0000
+Commit:     40179744 <jgarrity01@qub.ac.uk>
+CommitDate: Mon Jan 11 17:33:11 2021 +0000
+
+    Add .gitlab-ci.yml
+
+A	.gitlab-ci.yml
+
+commit d9c7f6806f6582033994633bfcfb9edcfe04d5fe
+Merge: e3b0842 60bf5b7
+Author:     40179744 <jgarrity01@qub.ac.uk>
+AuthorDate: Mon Jan 11 17:30:39 2021 +0000
+Commit:     40179744 <jgarrity01@qub.ac.uk>
+CommitDate: Mon Jan 11 17:30:39 2021 +0000
+
+    Merge branch 'Improved-CLI' into 'master'
+    
+    Improved Command Line Input Format and Parsing
+    
+    Improving the CLI to have a more standard and extensible approach
+    
+    See merge request !4
+
+commit 60bf5b7a8fa86588df4fd284b1689ccc2cbe26d6
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Mon Jan 11 17:28:22 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Mon Jan 11 17:28:22 2021 +0000
+
+    Update tests and refine main
+
+A	.idea/runConfigurations/Main_GIT_to_DSL.xml
+A	.idea/runConfigurations/Main_HG_to_DSL.xml
+A	.idea/runConfigurations/Main_SVN_to_DSL.xml
+A	src/main/java/main/FileOperations.java
+M	src/main/java/main/Main.java
+M	src/test/groovy/ArgumentValidationTests.groovy
+
+commit d81e6f9f8ea4bb7fa4d331e08371d981d7a78d03
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Mon Jan 11 01:54:17 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Mon Jan 11 01:54:17 2021 +0000
+
+    Improved CLI and initial tests
+
+M	build.gradle
+M	src/main/java/exceptions/CloserErrorCode.java
+M	src/main/java/exceptions/CloserException.java
+M	src/main/java/main/Main.java
+A	src/test/groovy/ArgumentValidationTests.groovy
+A	src/test/groovy/CloserSpecification.groovy
+
+commit e3b084278f8d230c82f6740a4c8dfd397cf972df
+Merge: eceb9dd 6f4dc97
+Author:     40179744 <jgarrity01@qub.ac.uk>
+AuthorDate: Fri Jan 8 16:16:24 2021 +0000
+Commit:     40179744 <jgarrity01@qub.ac.uk>
+CommitDate: Fri Jan 8 16:16:24 2021 +0000
+
+    Merge branch 'Convert-HG-to-DSL' into 'master'
+    
+    HG Parsing to closer format
+    
+    Parser for Mercurial SCM log output to the CLOSER format
+    
+    See merge request !3
+
+commit 6f4dc97bb9a6e322acd29170a2808fc825bc2165
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Fri Jan 8 16:07:00 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Fri Jan 8 16:07:00 2021 +0000
+
+    HG parsing to closer format
+
+M	build.gradle
+M	src/main/java/main/VCSType.java
+M	src/main/java/models/dsl/FileChange.java
+M	src/main/java/parsers/GitParser.java
+A	src/main/java/parsers/HgParser.java
+M	src/main/java/parsers/ParserSelector.java
+M	src/main/java/parsers/SvnParser.java
+A	src/main/resources/gitCloser.json
+A	src/main/resources/hg.txt
+A	src/main/resources/hgCloser.json
+A	src/main/resources/svnCloser.json
+
+commit eceb9dde57c0a65de82a43992f09c1ef601d0c0c
+Merge: ef8dd55 437a458
+Author:     40179744 <jgarrity01@qub.ac.uk>
+AuthorDate: Tue Jan 5 19:32:59 2021 +0000
+Commit:     40179744 <jgarrity01@qub.ac.uk>
+CommitDate: Tue Jan 5 19:32:59 2021 +0000
+
+    Merge branch 'Convert-SVN-to-DSL' into 'master'
+    
+    Code for SVN to DSL
+    
+    Parser and implementation for SVN parsing to CLOSER
+    
+    See merge request !2
+
+commit 437a45839e1750de8996ebaa39609e0c0e392d0d
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Tue Jan 5 16:56:21 2021 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Tue Jan 5 16:56:21 2021 +0000
+
+    Code for SVN to DSL
+
+A	.idea/inspectionProfiles/Project_Default.xml
+A	src/main/java/exceptions/CloserErrorCode.java
+A	src/main/java/exceptions/CloserException.java
+A	src/main/java/exceptions/Error.java
+M	src/main/java/main/Main.java
+M	src/main/java/main/ProgramArguments.java
+M	src/main/java/models/dsl/FileChangeType.java
+M	src/main/java/parsers/GitParser.java
+M	src/main/java/parsers/Parser.java
+M	src/main/java/parsers/SvnParser.java
+A	src/main/resources/TextFile1.json
+M	src/main/resources/svn.txt
+
+commit ef8dd5523055bcabd3eef10da4a8933ccd9935e3
+Merge: 522c496 e0631bd
+Author:     40179744 <jgarrity01@qub.ac.uk>
+AuthorDate: Thu Nov 19 16:29:07 2020 +0000
+Commit:     40179744 <jgarrity01@qub.ac.uk>
+CommitDate: Thu Nov 19 16:29:07 2020 +0000
+
+    Merge branch 'Convert-Git-to-DSL' into 'master'
+    
+    Git Parser to convert to CLOSER json
+    
+    See merge request !1
+
+commit e0631bdb20bef1ea67d1502f2e9dc47dd59c27b6
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Thu Nov 19 16:25:29 2020 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Thu Nov 19 16:25:29 2020 +0000
+
+    Git Parser created
+
+R089	src/main/java/Main.java	src/main/java/main/Main.java
+R096	src/main/java/ProgramArguments.java	src/main/java/main/ProgramArguments.java
+R073	src/main/java/VCSType.java	src/main/java/main/VCSType.java
+M	src/main/java/models/dsl/FileChange.java
+M	src/main/java/models/dsl/FileChangeType.java
+M	src/main/java/models/dsl/Revision.java
+M	src/main/java/parsers/GitParser.java
+M	src/main/java/parsers/Parser.java
+A	src/main/java/parsers/ParserSelector.java
+A	src/main/java/parsers/SvnParser.java
+A	src/main/resources/svn.txt
+
+commit b81a59cef47e566b3cfdabfae1c4320b3aad2ea0
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Thu Nov 19 01:22:43 2020 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Thu Nov 19 01:22:43 2020 +0000
+
+    Update DSL and beginning of Git Parser to DSL
+
+A	.idea/uiDesigner.xml
+M	build.gradle
+M	gradle/wrapper/gradle-wrapper.properties
+M	src/main/java/Main.java
+A	src/main/java/ProgramArguments.java
+A	src/main/java/VCSType.java
+M	src/main/java/models/dsl/Revision.java
+A	src/main/java/parsers/GitParser.java
+A	src/main/java/parsers/Parser.java
+
+commit 522c49644c9a57bbda8170da4e0b068fdfb4598c
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Wed Nov 18 18:18:17 2020 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Wed Nov 18 18:18:17 2020 +0000
+
+    Start made to DSL and reading a file passed as arguement
+
+M	src/README.md
+M	src/main/java/Main.java
+A	src/main/java/models/dsl/Author.java
+A	src/main/java/models/dsl/FileChange.java
+A	src/main/java/models/dsl/FileChangeType.java
+A	src/main/java/models/dsl/Revision.java
+A	src/main/resources/git.txt
+
+commit d98408609fc961d2bf1e69963bd886ade4f7bbb8
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Tue Nov 10 18:18:40 2020 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Tue Nov 10 18:18:40 2020 +0000
+
+    Update gitignore and README
+
+A	.gitignore
+A	gradle/wrapper/gradle-wrapper.jar
+A	gradle/wrapper/gradle-wrapper.properties
+A	gradlew
+A	gradlew.bat
+A	src/README.md
+
+commit 9e8376153a95be43254988ed03a3006f41bc8d88
+Author:     Jordan Garrity <jgarrity01@qub.ac.uk>
+AuthorDate: Tue Nov 10 15:08:16 2020 +0000
+Commit:     Jordan Garrity <jgarrity01@qub.ac.uk>
+CommitDate: Tue Nov 10 15:08:16 2020 +0000
+
+    Initial Commit
+
+A	.idea/.gitignore
+A	.idea/.name
+A	.idea/gradle.xml
+A	.idea/jarRepositories.xml
+A	.idea/misc.xml
+A	.idea/vcs.xml
+A	build.gradle
+A	settings.gradle
+A	src/main/java/Main.java

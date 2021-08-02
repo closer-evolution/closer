@@ -1,0 +1,30 @@
+[
+  {
+    "id": "db8c3c7f1c94406f56c0bc4d302a738a9904f654",
+    "author": {
+      "identifier": "Jordan Garrity",
+      "emailAddress": "jgarrity01@qub.ac.uk"
+    },
+    "authorDate": "2020-11-11T10:47:16Z",
+    "committer": {
+      "identifier": "Jordan Garrity",
+      "emailAddress": "jgarrity01@qub.ac.uk"
+    },
+    "committerDate": "2020-11-11T10:47:16Z",
+    "message": "Moving files",
+    "fileChanges": [
+      {
+        "type": "RENAMED",
+        "file": "TextFile1.txt",
+        "changePercentage": 100,
+        "newLocation": "folder/TextFile1.txt"
+      },
+      {
+        "type": "RENAMED",
+        "file": "TextFile5.txt",
+        "changePercentage": 100,
+        "newLocation": "folder/TextFile5.txt"
+      }
+    ]
+  }
+]

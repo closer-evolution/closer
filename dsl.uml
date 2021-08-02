@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>models.dsl</OriginalElement>
+  <nodes>
+    <node x="52.33512387267885" y="6.0">FileChangeType</node>
+    <node x="12.275987251130559" y="993.9775490632451">Author</node>
+    <node x="26.345548394420675" y="405.9914425048784">FileChange</node>
+    <node x="0.0" y="656.4967137350985">Revision</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Revision" target="FileChange">
+      <point x="5.005928308378503" y="-0.0" />
+      <point x="5.0059283083785004" y="0.0" />
+    </edge>
+    <edge source="FileChange" target="FileChangeType">
+      <point x="-4.994078712265434" y="-0.24326490847880677" />
+      <point x="-4.994078712265434" y="-0.24326490847886362" />
+    </edge>
+    <edge source="Revision" target="Author">
+      <point x="-5.005928308378503" y="-0.0" />
+      <point x="-5.005928308378497" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="1.0" x="498.0" y="147.5" />
+  <SelectedNodes>
+    <node>FileChangeType</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,55 @@
+------------------------------------------------------------------------
+r6 | Jordan | 2020-12-20 01:16:05 +0000 (Sun, 20 Dec 2020) | 9 lines
+Changed paths:
+   A /TestCommitMessage.txt
+
+This
+is 
+a 
+test 
+of 
+a 
+multi 
+line 
+commit
+------------------------------------------------------------------------
+r5 | Jordan | 2020-11-19 15:44:19 +0000 (Thu, 19 Nov 2020) | 1 line
+Changed paths:
+   D /TextFile4.txt
+   D /TextFile5.txt
+   A /folder
+   A /folder/TextFile4.txt
+   A /folder/TextFile5.txt
+
+
+------------------------------------------------------------------------
+r4 | Jordan | 2020-11-10 21:20:54 +0000 (Tue, 10 Nov 2020) | 1 line
+Changed paths:
+   M /TextFile1.txt
+   M /TextFile2.txt
+
+Update file content
+------------------------------------------------------------------------
+r3 | Jordan | 2020-11-10 21:19:48 +0000 (Tue, 10 Nov 2020) | 1 line
+Changed paths:
+   A /TextFile5.txt
+
+Add additional file
+------------------------------------------------------------------------
+r2 | Jordan | 2020-11-10 21:12:02 +0000 (Tue, 10 Nov 2020) | 1 line
+Changed paths:
+   A /TextFile1.txt
+   A /TextFile2.txt
+   A /TextFile3.txt
+   A /TextFile4.txt
+
+
+------------------------------------------------------------------------
+r1 | Jordan | 2020-11-10 18:42:10 +0000 (Tue, 10 Nov 2020) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+Imported folder structure
+------------------------------------------------------------------------

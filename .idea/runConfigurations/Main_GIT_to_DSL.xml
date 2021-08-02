@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main GIT to DSL" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <module name="CLOSER.main" />
+    <option name="PROGRAM_PARAMETERS" value="-i C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\git.txt -t GIT -u CLOSER -o C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\gitCloser.json" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

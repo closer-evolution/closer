@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main GIT to SVN" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <module name="SourceCode.main" />
+    <option name="PROGRAM_PARAMETERS" value="-i C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\git.txt -t GIT -u SVN -o C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\svnFromGit.txt" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

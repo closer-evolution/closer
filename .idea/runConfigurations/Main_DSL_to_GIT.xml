@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main DSL to GIT" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <module name="csc4006-final-project" />
+    <option name="PROGRAM_PARAMETERS" value="-i C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\gitCloser.json -t CLOSER -u GIT -o C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\gitFromCloser.txt" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main DSL to HG" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <module name="SourceCode.main" />
+    <option name="PROGRAM_PARAMETERS" value="-i C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\hgCloser.json -t CLOSER -u HG -o C:\Users\Jordan\Documents\CSC-4006\csc4006-final-project\src\main\resources\hgFromCloser.txt" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
