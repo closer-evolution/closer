@@ -36,13 +36,13 @@ dependencies {
 
 jar {
     manifest {
-        attributes 'Main-Class': 'main.Main'
+        attributes 'Main-Class': 'uk.ac.qub.eeecs.closer.main.Main'
     }
 }
 
 task customFatJar(type: Jar) {
     manifest {
-        attributes 'Main-Class': 'main.Main'
+        attributes 'Main-Class': 'uk.ac.qub.eeecs.closer.main.Main'
     }
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar

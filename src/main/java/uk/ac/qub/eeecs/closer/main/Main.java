@@ -22,7 +22,7 @@ import java.util.*;
 
 public class Main {
 
-    public static final String APPLICATION_VERSION = "0.0.0.1";
+    public static final String APPLICATION_VERSION = "0.0.0.2";
     public static final Gson GSON = new GsonBuilder().registerTypeAdapter(ZonedDateTime.class, new TypeAdapter<ZonedDateTime>() {
         @Override
         public void write(JsonWriter out, ZonedDateTime value) throws IOException {
@@ -47,6 +47,7 @@ public class Main {
             log.error("A CLOSER exception has occurred during execution. Details ="+ex.toString());
         } catch (Exception ex){
             //Catch all finally to prevent tool crashing
+            ex.printStackTrace();
             log.error(CloserErrorCode.INTERNAL_CLOSER_EXCEPTION.toString());
         }
         log.info("Finished CLOSER command line tool execution");

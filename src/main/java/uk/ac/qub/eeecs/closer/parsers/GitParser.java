@@ -89,6 +89,10 @@ public class GitParser implements Parser {
             log.warn("Cannot extract committer date for Git revision starting at line "+revisionStart+", checking line "+(revisionStart+4+mergeCommitIndexOffset)+". Details="+ex.toString());
         }
 
+        // Fix for null AuthorDate bug
+        if (authorDate == null)
+            authorDate = committerDate;
+
         int commitOffset = 6+mergeCommitIndexOffset;
 
         List<String> commitMessageAndFileChanges = linesOfRevision.subList(commitOffset, linesOfRevision.size()-1);

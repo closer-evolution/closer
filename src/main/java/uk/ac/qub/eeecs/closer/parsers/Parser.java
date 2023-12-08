@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Locale;
 
 public interface Parser {
 
@@ -46,7 +47,8 @@ public interface Parser {
 
     default ZonedDateTime extractDateTimeZoned(String dateString, String dateFormat) {
         try {
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat);
+            // note Locale.US required to allow for "Sep" in log strings, not "Sept" in later Java
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(dateFormat, Locale.US);
             return ZonedDateTime.parse(dateString, formatter);
         } catch (Exception e) {
             Map<String, Object> map = new HashMap<>();
