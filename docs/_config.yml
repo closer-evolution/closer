@@ -12,5 +12,5 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 title: 'CLOSER'
-description: 'Common Language of Software Evolution in Repositories (CLOSER)'
+description: 'Documentation for the Common Language of Software Evolution in Repositories (CLOSER)'
 show_downloads: false
