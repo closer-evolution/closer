@@ -3,7 +3,8 @@ A Common Language of Software Evolution in Repositories (CLOSER), developed and 
 
 ## Project Links
 
-- Main Project Site and Downloads: https://closer.eeecs.qub.ac.uk/
-- Repository: https://github.com/closer-evolution/closer/
-- Documentation: https://closer-evolution.github.io/closer/
+- Main Project Site and Downloads: [closer.eeecs.qub.ac.uk](https://closer.eeecs.qub.ac.uk/)
+- Repository: [github.com/closer-evolution/closer](https://github.com/closer-evolution/closer/)
+- Documentation: [closer-evolution.github.io/closer](https://closer-evolution.github.io/closer/)
+- 
 
