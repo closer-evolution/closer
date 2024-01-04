@@ -19,10 +19,11 @@ such as Git to SVN. This allows for existing tools for mining and analysing a sp
 repository type to now be used on any repository type.
 
 ### Releases and Binary Downloads
-From the CLOSER website: [closer.eeecs.qub.ac.uk](https://closer.eeecs.qub.ac.uk/)
+From the CLOSER repository: [github.com/closer-evolution/closer/releases](https://github.com/closer-evolution/closer/releases) 
+- Here is a **[direct link to the latest version](https://github.com/closer-evolution/closer/releases/latest)**.
 
 ### Documentation
-From the CLOSER github.io: [closer-evolution.github.io/closer](https://closer-evolution.github.io/closer/)
+From the CLOSER site: [closer-evolution.github.io/closer](https://closer-evolution.github.io/closer/)
 
 ### VCS variants supported
 git, svn, hg (Mercurial)

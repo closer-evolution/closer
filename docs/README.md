@@ -3,13 +3,15 @@ A Common Language of Software Evolution in Repositories (CLOSER), developed and 
 
 ## Project Links
 
-- Main Project Site and Downloads: [closer.eeecs.qub.ac.uk](https://closer.eeecs.qub.ac.uk/)
+- Main Project Site: [closer-evolution.github.io/closer](https://closer-evolution.github.io/closer/)
 - Repository: [github.com/closer-evolution/closer](https://github.com/closer-evolution/closer/)
 - Documentation: [closer-evolution.github.io/closer](https://closer-evolution.github.io/closer/)
+- Release Downloads: [github.com/closer-evolution/closer/releases](https://github.com/closer-evolution/closer/releases)
+  - Latest Release: [Latest CLOSER Release](https://github.com/closer-evolution/closer/releases/latest)
 
 ## Obtaining CLOSER
 
-CLOSER is available as a compiled (binary) JAR from [closer.eeecs.qub.ac.uk](https://closer.eeecs.qub.ac.uk/) or the Java source as an IntelliJ project from [the repository](https://github.com/closer-evolution/closer).
+CLOSER is available as a compiled (binary) JAR from Github (see links above) or the Java source as an IntelliJ project from [the repository](https://github.com/closer-evolution/closer).
 
 # Documentation
 
