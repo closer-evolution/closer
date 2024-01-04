@@ -1,5 +1,5 @@
 # CLOSER Documentation
-A Common Language of Software Evolution in Repositories (CLOSER), developed and maintained by the [School of Electronics, Electrical Engineering and Computer Science](https://www.qub.ac.uk/schools/eeecs/) at [Queen's University Belfast](https://www.qub.ac.uk/). Original development by Jordan Garrity. Project lead [David Cutting](https://davecutting.uk).
+A Common Language of Software Evolution in Repositories (CLOSER), developed and maintained by the [Software Engineering Research Theme](https://www.qub.ac.uk/schools/eeecs/Research/softwareengineering/) in the [School of Electronics, Electrical Engineering and Computer Science](https://www.qub.ac.uk/schools/eeecs/) at [Queen's University Belfast](https://www.qub.ac.uk/). Original development by Jordan Garrity. Project lead [David Cutting](https://davecutting.uk).
 
 ## Project Links
 
@@ -8,6 +8,7 @@ A Common Language of Software Evolution in Repositories (CLOSER), developed and 
 - Documentation: [closer-evolution.github.io/closer](https://closer-evolution.github.io/closer/)
 - Release Downloads: [github.com/closer-evolution/closer/releases](https://github.com/closer-evolution/closer/releases)
   - Latest Release: [Latest CLOSER Release](https://github.com/closer-evolution/closer/releases/latest)
+- Support and Bugs: [Please open Github issue](https://github.com/closer-evolution/closer/issues) (alternatively you can email [d.cutting@qub.ac.uk](mailto://d.cutting@qub.ac.uk) but opening an issue will be quicker and better).
 
 ## Obtaining CLOSER
 
