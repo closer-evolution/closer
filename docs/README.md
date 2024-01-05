@@ -1,6 +1,8 @@
 # CLOSER Documentation
 A Common Language of Software Evolution in Repositories (CLOSER), developed and maintained by the [Software Engineering Research Theme](https://www.qub.ac.uk/schools/eeecs/Research/softwareengineering/) in the [School of Electronics, Electrical Engineering and Computer Science](https://www.qub.ac.uk/schools/eeecs/) at [Queen's University Belfast](https://www.qub.ac.uk/). Original development by Jordan Garrity. Project lead [David Cutting](https://davecutting.uk).
 
+CLOSER is free software licenced under the [GNU GPL v3](https://www.gnu.org/licences/).
+
 ## Project Links
 
 - Main Project Site: [closer-evolution.github.io/closer](https://closer-evolution.github.io/closer/)
