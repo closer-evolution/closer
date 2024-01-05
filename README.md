@@ -1,7 +1,7 @@
-Original Author: Jordan Garrity 
+# CLOSER - A Common Language for Software Evolution in Repositories
 
 ### Project Details
-This Project covers a framework for conversion between VCS outputs 
+This Project (original developer Jordan Garrity) covers a framework for conversion between VCS outputs 
 to assist with repository mining across version control system 
 (VCS) variants.
 
@@ -17,6 +17,16 @@ It also outlines parsers for conversion from the DSL model back to any of the
 original VCS variants. This provides the ability to convert from one VCS output
 such as Git to SVN. This allows for existing tools for mining and analysing a specific 
 repository type to now be used on any repository type.
+
+### Licence and Copyright
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see [gnu.org/licences](https://www.gnu.org/licenses/).
+
+Copyright (C) the authors, all rights reserved.
 
 ### Releases and Binary Downloads
 From the CLOSER repository: [github.com/closer-evolution/closer/releases](https://github.com/closer-evolution/closer/releases) 
